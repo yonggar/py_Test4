@@ -15,7 +15,7 @@ from xml.dom import minidom
 # 서비스키와 검색시작날짜 검색종료날짜 변수화하여 변경에 용잉하게 만들기
 serviceKey = "u1787ibmOGLYJ8lrbxwPk3MauGKscWK%2BYHPhsXnslQqFvGaN67hTnAfYc288yxkVGUdJzw92MvOJ%2BkGuORJBxw%3D%3D"
 startDt = "20190101"
-endDt = "20191230"
+endDt = "20191231"
 stnIds = "108"  # 지역을 의미(108은 서울)
 
 # url setting (기상청02_지상_종관__ASOS__일자료_조회서비스_오픈API활용가이드.docx)
