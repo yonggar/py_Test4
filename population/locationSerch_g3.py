@@ -1,7 +1,7 @@
 import csv
 import matplotlib.pyplot as plt
 
-f = open('population/202006_202006_연령별인구현황_월간.csv')
+f = open('py_Test4/population/202006_202006_연령별인구현황_월간.csv')
 data = csv.reader(f)
 
 result = [0] * 11
@@ -14,5 +14,5 @@ for row in data:
             n = n+1
 
 # plt.bar(range(11), result)
-plt.barh(range(11), result)
+plt.barh(range(0,110,10), result)
 plt.show()

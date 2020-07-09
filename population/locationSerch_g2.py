@@ -1,7 +1,7 @@
 import csv
 import matplotlib.pyplot as plt
 
-f = open('population/202006_202006_연령별인구현황_월간.csv')
+f = open('py_Test4/population/202006_202006_연령별인구현황_월간.csv')
 data = csv.reader(f)
 
 result = [0] * 11
